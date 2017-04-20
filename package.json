@@ -1,0 +1,28 @@
+{
+  "name": "@geekie/eslint-plugin",
+  "version": "1.0.0",
+  "description": "ESLint rules used at Geekie",
+  "main": "index.js",
+  "repository": "https://github.com/geekie/eslint-plugin",
+  "license": "MIT",
+  "files": [
+    "configs",
+    "rules/*.js",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "tree-matcher": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "5.0.0",
+    "eslint-plugin-prettier": "2.6.1",
+    "eslint-plugin-self": "1.0.1",
+    "jest": "23.2.0",
+    "prettier": "1.13.6"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0"
+  }
+}
