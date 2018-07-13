@@ -13,7 +13,7 @@
     "README.md"
   ],
   "dependencies": {
-    "tree-matcher": "1.0.1"
+    "ast-verify": "1.0.0"
   },
   "devDependencies": {
     "eslint": "5.0.0",

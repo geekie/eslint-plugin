@@ -11,13 +11,19 @@ ruleTester.run("no-expect-json-stringify", rule, {
     {
       code: `expect(foo).toEqual({ foo: JSON.stringify(bar) })`,
       errors: [
-        { message: "Should not use JSON.stringify inside a Jest matcher" }
+        {
+          message: "Should not use JSON.stringify inside a Jest matcher",
+          column: 28
+        }
       ]
     },
     {
       code: `expect(foo).toEqual(expect.objectContaining({ foo: JSON.stringify(bar) }))`,
       errors: [
-        { message: "Should not use JSON.stringify inside a Jest matcher" }
+        {
+          message: "Should not use JSON.stringify inside a Jest matcher",
+          column: 52
+        }
       ]
     }
   ]

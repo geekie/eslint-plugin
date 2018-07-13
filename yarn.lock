@@ -172,6 +172,10 @@ assign-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
 
+ast-verify@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ast-verify/-/ast-verify-1.0.0.tgz#ced10c7af3af6246b6c402145d14f1bd4db946b7"
+
 astral-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
@@ -3176,10 +3180,6 @@ tr46@^1.0.1:
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-1.0.1.tgz#a8b13fd6bfd2489519674ccde55ba3693b706d09"
   dependencies:
     punycode "^2.1.0"
-
-tree-matcher@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/tree-matcher/-/tree-matcher-1.0.1.tgz#a91f45edc8ba6b71ea504e1a12981887804dff80"
 
 trim-right@^1.0.1:
   version "1.0.1"
