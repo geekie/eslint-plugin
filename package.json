@@ -13,14 +13,14 @@
     "README.md"
   ],
   "dependencies": {
-    "ast-verify": "1.0.0"
+    "match-ast": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "5.0.0",
-    "eslint-plugin-prettier": "2.6.1",
-    "eslint-plugin-self": "1.1.0",
-    "jest": "23.2.0",
-    "prettier": "1.13.6"
+    "eslint": "^5.2.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-self": "^1.1.0",
+    "jest": "^23.4.1",
+    "prettier": "^1.13.7"
   },
   "peerDependencies": {
     "eslint": "^5.0.0"
