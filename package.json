@@ -1,6 +1,6 @@
 {
   "name": "@geekie/eslint-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint rules used at Geekie",
   "main": "index.js",
   "repository": "https://github.com/geekie/eslint-plugin",
