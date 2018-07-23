@@ -1,6 +1,6 @@
 "use strict";
 
-const t = require("ast-verify");
+const t = require("match-ast");
 
 const isStringify = t.isCallExpression({
   callee: t.isMemberExpression({
